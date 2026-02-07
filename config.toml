@@ -1,0 +1,46 @@
+baseURL = "https://Lam0helloworld.github.io/"
+languageCode = "zh-cn"
+title = "Lam的多重宇宙"
+theme = "hugo-coder"
+
+[pagination]
+pagerSize = 20
+
+[params]
+author = "Lam"
+description = "记录一些输入和输出，以及别的"
+keywords = "个人, 知识库, 日志"
+colorScheme = "light"
+avatarurl = "/avatar.jpg"
+
+[params.author]
+name = "Lam"
+title = "Multiverse Explorer"
+description = "知识探索者 / 自学者 / 日常记录者"
+
+[menu]
+
+[[menu.main]]
+name = "关于我"
+weight = 1
+url = "/about/"
+
+[[menu.main]]
+name = "专业·输出"
+weight = 2
+url = "/professional/"
+
+[[menu.main]]
+name = "业余·输入"
+weight = 3
+url = "/selfstudy/"
+
+[[menu.main]]
+name = "日常记录"
+weight = 4
+url = "/daily/"
+
+[[menu.main]]
+name = "联系我"
+weight = 5
+url = "/contact/"
