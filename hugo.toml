@@ -2,7 +2,7 @@ baseURL = "https://lam0helloworld.github.io/hugo-profile/"   # 注意这里要�
 languageCode = "zh-cn"
 title = "Lam的多重宇宙"
 
-theme = "hugo-profile"   # 这个模板自带主题，兼容 coder 风格
+theme = "hugo-coder"   # 这个模板自带主题，兼容 coder 风格
 
 [params]
   author = "Lam"
