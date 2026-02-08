@@ -1,5 +1,45 @@
-baseURL = "https://example.com/"
+baseURL = "https://lam0helloworld.github.io/hugo-profile/"   # 注意这里要加 /hugo-profile/ 结尾
+languageCode = "zh-cn"
+title = "Lam的多重宇宙"
 
-[module]
-[module.hugoVersion]
-min = "0.124.0"
+theme = "hugo-profile"   # 这个模板自带主题，兼容 coder 风格
+
+[params]
+  author = "Lam"
+  description = "记录一些输入和输出，以及别的"
+  keywords = "个人, 知识库, 日志"
+
+  # 强制浅色模式（白色/亮色主题）
+  colorScheme = "light"
+
+  # 首页居中大头像 + 简介
+  [params.author]
+    name = "Lam"
+    title = "Multiverse Explorer"
+    description = """知识探索者 / 自学者 / 日常记录者"""
+
+  # 圆形头像（稍后上传）
+  avatarurl = "/images/avatar.jpg"   # 这个模板默认路径是 images/
+
+# 顶部导航栏（你的菜单）
+[menu]
+  [[menu.main]]
+    name = "关于我"
+    weight = 1
+    url = "/about/"
+  [[menu.main]]
+    name = "专业·输出"
+    weight = 2
+    url = "/professional/"
+  [[menu.main]]
+    name = "业余·输入"
+    weight = 3
+    url = "/selfstudy/"
+  [[menu.main]]
+    name = "日常记录"
+    weight = 4
+    url = "/daily/"
+  [[menu.main]]
+    name = "联系我"
+    weight = 5
+    url = "/contact/"
